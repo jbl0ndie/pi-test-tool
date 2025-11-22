@@ -6,10 +6,10 @@
  * PROGRESS TRACKER:
  * ==================
  * Numerical (Goal: 80):  [ 80/80 ] ✓ COMPLETE - IDs 1-80
- * Verbal (Goal: 80):     [ 62/80 ] - IDs 81-160  
+ * Verbal (Goal: 80):     [ 80/80 ] ✓ COMPLETE - IDs 81-160
  * Abstract (Goal: 40):   [ 2/40 ] - IDs 161-200
  * ==================
- * TOTAL: 144/200 questions complete (72%)
+ * TOTAL: 162/200 questions complete (81%)
  * 
  * BATCH PLAN (20 questions per batch):
  * Batch 1: ✓ Numerical 3-22   (20 questions) - COMPLETE
@@ -19,7 +19,7 @@
  * Batch 5: ✓ Verbal 83-102    (20 questions) - COMPLETE
  * Batch 6: ✓ Verbal 103-122   (20 questions) - COMPLETE
  * Batch 7: ✓ Verbal 123-142   (20 questions) - COMPLETE
- * Batch 8: ✗ Verbal 143-160   (18 questions)
+ * Batch 8: ✓ Verbal 143-160   (18 questions) - COMPLETE
  * Batch 9: ✗ Abstract 163-182 (20 questions)
  * Batch 10: ✗ Abstract 183-200 (18 questions)
  */
@@ -1167,6 +1167,150 @@ const QUESTIONS = [
     options: ['Rain', 'Thunder', 'Storm', 'Cloud'],
     answer: 1,
     explanation: 'Lightning produces thunder, just as fire produces smoke.'
+  },
+  {
+    id: 143,
+    type: 'Verbal',
+    question: 'Which word means the same as "reluctant"?',
+    options: ['Eager', 'Unwilling', 'Enthusiastic', 'Ready'],
+    answer: 1,
+    explanation: 'Reluctant means unwilling or hesitant.'
+  },
+  {
+    id: 144,
+    type: 'Verbal',
+    question: 'Complete the analogy: Student is to Classroom as Patient is to ...',
+    options: ['Doctor', 'Hospital', 'Medicine', 'Nurse'],
+    answer: 1,
+    explanation: 'A patient is treated in a hospital, just as a student learns in a classroom.'
+  },
+  {
+    id: 145,
+    type: 'Verbal',
+    question: 'Which word is most opposite in meaning to "complex"?',
+    options: ['Complicated', 'Simple', 'Difficult', 'Intricate'],
+    answer: 1,
+    explanation: 'Simple is the antonym of complex.'
+  },
+  {
+    id: 146,
+    type: 'Verbal',
+    question: 'Complete the analogy: Glove is to Hand as Shoe is to ...',
+    options: ['Sock', 'Foot', 'Leg', 'Toe'],
+    answer: 1,
+    explanation: 'A shoe is worn on the foot, just as a glove is worn on the hand.'
+  },
+  {
+    id: 147,
+    type: 'Verbal',
+    question: 'Which word means the same as "vivid"?',
+    options: ['Dull', 'Bright', 'Faded', 'Pale'],
+    answer: 1,
+    explanation: 'Vivid means bright and intense.'
+  },
+  {
+    id: 148,
+    type: 'Verbal',
+    question: 'Complete the analogy: Actor is to Stage as Athlete is to ...',
+    options: ['Sport', 'Field', 'Team', 'Coach'],
+    answer: 1,
+    explanation: 'An athlete performs on a field, just as an actor performs on a stage.'
+  },
+  {
+    id: 149,
+    type: 'Verbal',
+    question: 'Which word is most opposite in meaning to "innocent"?',
+    options: ['Pure', 'Guilty', 'Clean', 'Blameless'],
+    answer: 1,
+    explanation: 'Guilty is the antonym of innocent.'
+  },
+  {
+    id: 150,
+    type: 'Verbal',
+    question: 'Complete the analogy: Ink is to Paper as Paint is to ...',
+    options: ['Brush', 'Canvas', 'Artist', 'Color'],
+    answer: 1,
+    explanation: 'Paint is applied to canvas, just as ink is applied to paper.'
+  },
+  {
+    id: 151,
+    type: 'Verbal',
+    question: 'Which word means the same as "trivial"?',
+    options: ['Important', 'Minor', 'Significant', 'Major'],
+    answer: 1,
+    explanation: 'Trivial means minor or unimportant.'
+  },
+  {
+    id: 152,
+    type: 'Verbal',
+    question: 'Complete the analogy: Battery is to Flashlight as Gasoline is to ...',
+    options: ['Pump', 'Car', 'Tank', 'Station'],
+    answer: 1,
+    explanation: 'Gasoline powers a car, just as a battery powers a flashlight.'
+  },
+  {
+    id: 153,
+    type: 'Verbal',
+    question: 'Which word is most opposite in meaning to "exterior"?',
+    options: ['Outside', 'Interior', 'Outer', 'Surface'],
+    answer: 1,
+    explanation: 'Interior is the antonym of exterior.'
+  },
+  {
+    id: 154,
+    type: 'Verbal',
+    question: 'Complete the analogy: Key is to Lock as Password is to ...',
+    options: ['Computer', 'Security', 'Account', 'Code'],
+    answer: 2,
+    explanation: 'A password unlocks an account, just as a key unlocks a lock.'
+  },
+  {
+    id: 155,
+    type: 'Verbal',
+    question: 'Which word means the same as "genuine"?',
+    options: ['Fake', 'Authentic', 'False', 'Artificial'],
+    answer: 1,
+    explanation: 'Genuine means authentic or real.'
+  },
+  {
+    id: 156,
+    type: 'Verbal',
+    question: 'Complete the analogy: Question is to Answer as Problem is to ...',
+    options: ['Issue', 'Solution', 'Difficulty', 'Challenge'],
+    answer: 1,
+    explanation: 'A solution resolves a problem, just as an answer addresses a question.'
+  },
+  {
+    id: 157,
+    type: 'Verbal',
+    question: 'Which word is most opposite in meaning to "urban"?',
+    options: ['City', 'Rural', 'Metropolitan', 'Downtown'],
+    answer: 1,
+    explanation: 'Rural is the antonym of urban.'
+  },
+  {
+    id: 158,
+    type: 'Verbal',
+    question: 'Complete the analogy: Nucleus is to Cell as Yolk is to ...',
+    options: ['Shell', 'Egg', 'Chicken', 'White'],
+    answer: 1,
+    explanation: 'The yolk is the center of an egg, just as the nucleus is the center of a cell.'
+  },
+  {
+    id: 159,
+    type: 'Verbal',
+    question: 'Which word means the same as "immense"?',
+    options: ['Tiny', 'Huge', 'Small', 'Miniature'],
+    answer: 1,
+    explanation: 'Immense means huge or very large.'
+  },
+  {
+    id: 160,
+    type: 'Verbal',
+    question: 'Complete the analogy: Oven is to Baking as Refrigerator is to ...',
+    options: ['Food', 'Cooling', 'Kitchen', 'Storage'],
+    answer: 1,
+    explanation: 'A refrigerator is used for cooling, just as an oven is used for baking.'
   },
 
   // ========================================
