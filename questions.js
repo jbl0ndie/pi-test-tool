@@ -5,15 +5,15 @@
  * 
  * PROGRESS TRACKER:
  * ==================
- * Numerical (Goal: 80):  [ 22/80 ] - IDs 1-80
+ * Numerical (Goal: 80):  [ 42/80 ] - IDs 1-80
  * Verbal (Goal: 80):     [ 2/80 ] - IDs 81-160  
  * Abstract (Goal: 40):   [ 2/40 ] - IDs 161-200
  * ==================
- * TOTAL: 26/200 questions complete
+ * TOTAL: 46/200 questions complete (23%)
  * 
  * BATCH PLAN (20 questions per batch):
  * Batch 1: ✓ Numerical 3-22   (20 questions) - COMPLETE
- * Batch 2: ✗ Numerical 23-42  (20 questions)
+ * Batch 2: ✓ Numerical 23-42  (20 questions) - COMPLETE
  * Batch 3: ✗ Numerical 43-62  (20 questions)
  * Batch 4: ✗ Numerical 63-80  (18 questions)
  * Batch 5: ✗ Verbal 83-102    (20 questions)
@@ -203,6 +203,166 @@ const QUESTIONS = [
     options: ['15', '18', '20', '22'],
     answer: 2,
     explanation: '0.25 × 80 = 20.'
+  },
+  {
+    id: 23,
+    type: 'Numerical',
+    question: 'A shirt originally costs $60 and is on sale for 25% off. What is the sale price?',
+    options: ['$40', '$45', '$50', '$55'],
+    answer: 1,
+    explanation: '25% of $60 = $15 discount. $60 - $15 = $45.'
+  },
+  {
+    id: 24,
+    type: 'Numerical',
+    question: 'What is the next number? 10, 13, 19, 28, ?',
+    options: ['37', '40', '43', '46'],
+    answer: 1,
+    explanation: 'Differences increase by 3: +3, +6, +9, +12. So 28 + 12 = 40.'
+  },
+  {
+    id: 25,
+    type: 'Numerical',
+    question: 'If 4y + 8 = 32, what is y?',
+    options: ['4', '5', '6', '7'],
+    answer: 2,
+    explanation: '4y = 32 - 8 = 24, so y = 24 ÷ 4 = 6.'
+  },
+  {
+    id: 26,
+    type: 'Numerical',
+    question: 'A baker makes 144 cookies and packs them into boxes of 12. How many boxes?',
+    options: ['10', '11', '12', '13'],
+    answer: 2,
+    explanation: '144 ÷ 12 = 12 boxes.'
+  },
+  {
+    id: 27,
+    type: 'Numerical',
+    question: 'What is the next number? 64, 32, 16, 8, ?',
+    options: ['2', '3', '4', '6'],
+    answer: 2,
+    explanation: 'Each number is halved. 8 ÷ 2 = 4.'
+  },
+  {
+    id: 28,
+    type: 'Numerical',
+    question: 'If a rectangle has length 15 and width 8, what is its perimeter?',
+    options: ['38', '42', '46', '50'],
+    answer: 2,
+    explanation: 'Perimeter = 2(length + width) = 2(15 + 8) = 2(23) = 46.'
+  },
+  {
+    id: 29,
+    type: 'Numerical',
+    question: 'What is 40% of 250?',
+    options: ['80', '90', '100', '110'],
+    answer: 2,
+    explanation: '0.40 × 250 = 100.'
+  },
+  {
+    id: 30,
+    type: 'Numerical',
+    question: 'What is the next number? 1, 3, 7, 15, 31, ?',
+    options: ['47', '55', '63', '71'],
+    answer: 2,
+    explanation: 'Pattern: double and add 1. 31 × 2 + 1 = 63.'
+  },
+  {
+    id: 31,
+    type: 'Numerical',
+    question: 'A store marks up items by 50%. If the cost is $20, what is the selling price?',
+    options: ['$25', '$28', '$30', '$35'],
+    answer: 2,
+    explanation: '50% of $20 = $10. Selling price = $20 + $10 = $30.'
+  },
+  {
+    id: 32,
+    type: 'Numerical',
+    question: 'What is the next number? 2, 6, 18, 54, ?',
+    options: ['108', '144', '162', '180'],
+    answer: 2,
+    explanation: 'Each number is multiplied by 3. 54 × 3 = 162.'
+  },
+  {
+    id: 33,
+    type: 'Numerical',
+    question: 'If 6 pencils cost $3.60, how much do 10 pencils cost?',
+    options: ['$5.00', '$5.50', '$6.00', '$6.50'],
+    answer: 2,
+    explanation: 'One pencil costs $3.60 ÷ 6 = $0.60. Ten pencils cost 10 × $0.60 = $6.00.'
+  },
+  {
+    id: 34,
+    type: 'Numerical',
+    question: 'What is the next number? 1, 2, 4, 7, 11, 16, ?',
+    options: ['20', '21', '22', '23'],
+    answer: 2,
+    explanation: 'Differences increase by 1: +1, +2, +3, +4, +5, +6. So 16 + 6 = 22.'
+  },
+  {
+    id: 35,
+    type: 'Numerical',
+    question: 'A car depreciates 15% per year. If it costs $20,000, what is it worth after 1 year?',
+    options: ['$16,000', '$17,000', '$18,000', '$19,000'],
+    answer: 1,
+    explanation: '15% of $20,000 = $3,000. Value = $20,000 - $3,000 = $17,000.'
+  },
+  {
+    id: 36,
+    type: 'Numerical',
+    question: 'What is the next number? 4, 9, 16, 25, 36, ?',
+    options: ['42', '45', '49', '54'],
+    answer: 2,
+    explanation: 'Perfect squares: 2², 3², 4², 5², 6², 7² = 49.'
+  },
+  {
+    id: 37,
+    type: 'Numerical',
+    question: 'If 3x - 5 = 16, what is x?',
+    options: ['5', '6', '7', '8'],
+    answer: 2,
+    explanation: '3x = 16 + 5 = 21, so x = 21 ÷ 3 = 7.'
+  },
+  {
+    id: 38,
+    type: 'Numerical',
+    question: 'A worker earns $15/hour and works 40 hours. What are their total earnings?',
+    options: ['$550', '$575', '$600', '$625'],
+    answer: 2,
+    explanation: '$15 × 40 = $600.'
+  },
+  {
+    id: 39,
+    type: 'Numerical',
+    question: 'What is the next number? 5, 8, 14, 26, 50, ?',
+    options: ['74', '86', '98', '102'],
+    answer: 2,
+    explanation: 'Pattern: double and subtract 2. 50 × 2 - 2 = 98.'
+  },
+  {
+    id: 40,
+    type: 'Numerical',
+    question: 'What is 75% of 120?',
+    options: ['80', '85', '90', '95'],
+    answer: 2,
+    explanation: '0.75 × 120 = 90.'
+  },
+  {
+    id: 41,
+    type: 'Numerical',
+    question: 'If a square has a side of 9, what is its area?',
+    options: ['72', '81', '90', '99'],
+    answer: 1,
+    explanation: 'Area = side² = 9² = 81.'
+  },
+  {
+    id: 42,
+    type: 'Numerical',
+    question: 'What is the next number? 128, 64, 32, 16, ?',
+    options: ['4', '6', '8', '10'],
+    answer: 2,
+    explanation: 'Each number is halved. 16 ÷ 2 = 8.'
   },
 
   // ========================================
