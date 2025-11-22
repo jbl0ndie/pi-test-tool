@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PI Cognitive Assessment Practice Tool</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Welcome Screen -->
+        <div id="welcome-screen" class="screen active">
+            <h1>PI Cognitive Assessment Practice</h1>
+            <p class="intro">Practice for the Predictive Index Cognitive Assessment. Choose your mode:</p>
+            <div class="mode-selection">
+                <div class="mode-card">
+                    <h2>Practice Mode</h2>
+                    <p>Untimed practice with explanations</p>
+                    <button onclick="startTest('practice')" class="btn btn-primary">Start Practice</button>
+                </div>
+                <div class="mode-card">
+                    <h2>Test Mode</h2>
+                    <p>12-minute timed test (50 questions)</p>
+                    <button onclick="startTest('test')" class="btn btn-primary">Start Test</button>
+                </div>
+            </div>
+            <div class="info-box">
+                <h3>About the Test</h3>
+                <ul>
+                    <li>50 questions in 12 minutes (test mode)</li>
+                    <li>Mix of numerical, verbal, and abstract reasoning</li>
+                    <li>No penalty for wrong answers</li>
+                    <li>Average ~14 seconds per question</li>
+                    <li>Skip difficult questions and return later</li>
+                </ul>
+            </div>
+        </div>
+        <!-- Test Screen -->
+        <div id="test-screen" class="screen">
+            <div class="test-header">
+                <div class="timer-section">
+                    <div id="timer" class="timer">12:00</div>
+                    <div class="timer-label">Time Remaining</div>
+                </div>
+                <div class="progress-section">
+                    <div class="progress-bar">
+                        <div id="progress-fill" class="progress-fill"></div>
+                    </div>
+                    <div class="progress-text">
+                        <span id="answered-count">0</span> / <span id="total-count">50</span> answered
+                    </div>
+                </div>
+                <div class="actions-section">
+                    <button onclick="toggleFlag()" id="flag-btn" class="btn btn-secondary">
+                        <span id="flag-icon">🏴</span> Flag
+                    </button>
+                    <button onclick="endTest()" class="btn btn-warning">End Test</button>
+                </div>
+            </div>
+            <div class="question-container">
+                <div class="question-header">
+                    <span class="question-number">Question <span id="current-question-num">1</span></span>
+                    <span class="question-type" id="question-type">Numerical Reasoning</span>
+                </div>
+                <div class="question-content">
+                    <p id="question-text" class="question-text"></p>
+                    <div id="question-options" class="options"></div>
+                </div>
+            </div>
+            <div class="navigation">
+                <button onclick="previousQuestion()" id="prev-btn" class="btn btn-nav">← Previous</button>
+                <div class="question-grid" id="question-grid"></div>
+                <button onclick="nextQuestion()" id="next-btn" class="btn btn-nav">Next →</button>
+            </div>
+        </div>
+        <!-- Results Screen -->
+        <div id="results-screen" class="screen">
+            <h1>Test Complete!</h1>
+            <div class="results-summary">
+                <div class="result-card">
+                    <div class="result-value" id="score-value">0</div>
+                    <div class="result-label">Correct Answers</div>
+                </div>
+                <div class="result-card">
+                    <div class="result-value" id="percentage-value">0%</div>
+                    <div class="result-label">Accuracy</div>
+                </div>
+                <div class="result-card">
+                    <div class="result-value" id="time-value">0:00</div>
+                    <div class="result-label">Time Used</div>
+                </div>
+                <div class="result-card">
+                    <div class="result-value" id="avg-time-value">0s</div>
+                    <div class="result-label">Avg per Question</div>
+                </div>
+            </div>
+            <div class="results-breakdown">
+                <h2>Breakdown by Type</h2>
+                <div id="type-breakdown"></div>
+            </div>
+            <div class="results-actions">
+                <button onclick="reviewAnswers()" class="btn btn-primary">Review Answers</button>
+                <button onclick="restartTest()" class="btn btn-secondary">Try Again</button>
+                <button onclick="backToHome()" class="btn btn-secondary">Back to Home</button>
+            </div>
+        </div>
+        <!-- Review Screen -->
+        <div id="review-screen" class="screen">
+            <h1>Answer Review</h1>
+            <div id="review-content"></div>
+            <div class="review-actions">
+                <button onclick="backToResults()" class="btn btn-secondary">Back to Results</button>
+                <button onclick="backToHome()" class="btn btn-primary">Back to Home</button>
+            </div>
+        </div>
+    </div>
+    <script src="questions.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
