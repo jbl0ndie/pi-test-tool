@@ -17,10 +17,38 @@ function showScreen(screen) {
   $(screen + '-screen').classList.add('active');
 }
 
+/**
+ * Selects a balanced mix of questions from different types
+ * Target distribution: ~20 Numerical, ~20 Verbal, ~10 Abstract (total 50)
+ */
+function selectBalancedQuestions() {
+  // Separate questions by type
+  const numerical = QUESTIONS.filter(q => q.type === 'Numerical');
+  const verbal = QUESTIONS.filter(q => q.type === 'Verbal');
+  const abstract = QUESTIONS.filter(q => q.type === 'Abstract');
+  
+  // Shuffle each type separately
+  shuffle(numerical);
+  shuffle(verbal);
+  shuffle(abstract);
+  
+  // Select proportional amounts from each type
+  const selectedNumerical = numerical.slice(0, 20);
+  const selectedVerbal = verbal.slice(0, 20);
+  const selectedAbstract = abstract.slice(0, 10);
+  
+  // Combine all selected questions
+  const selected = [...selectedNumerical, ...selectedVerbal, ...selectedAbstract];
+  
+  // Final shuffle to mix question types throughout the test
+  shuffle(selected);
+  
+  return selected;
+}
+
 function startTest(selectedMode) {
   mode = selectedMode;
-  questions = QUESTIONS.slice(0, 50); // Use first 50 questions
-  shuffle(questions);
+  questions = selectBalancedQuestions(); // Use balanced selection
   current = 0;
   answers = Array(questions.length).fill(null);
   flags = Array(questions.length).fill(false);
@@ -173,6 +201,5 @@ function formatTime(sec) {
   const m = Math.floor(sec / 60);
   const s = sec % 60;
   return m + ':' + (s < 10 ? '0' : '') + s;
-}
-// On load, show welcome
+}// On load, show welcome
 window.onload = () => showScreen('welcome');
