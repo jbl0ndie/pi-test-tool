@@ -5,17 +5,17 @@
  * 
  * PROGRESS TRACKER:
  * ==================
- * Numerical (Goal: 80):  [ 62/80 ] - IDs 1-80
+ * Numerical (Goal: 80):  [ 80/80 ] ✓ COMPLETE - IDs 1-80
  * Verbal (Goal: 80):     [ 2/80 ] - IDs 81-160  
  * Abstract (Goal: 40):   [ 2/40 ] - IDs 161-200
  * ==================
- * TOTAL: 66/200 questions complete (33%)
+ * TOTAL: 84/200 questions complete (42%)
  * 
  * BATCH PLAN (20 questions per batch):
  * Batch 1: ✓ Numerical 3-22   (20 questions) - COMPLETE
  * Batch 2: ✓ Numerical 23-42  (20 questions) - COMPLETE
  * Batch 3: ✓ Numerical 43-62  (20 questions) - COMPLETE
- * Batch 4: ✗ Numerical 63-80  (18 questions)
+ * Batch 4: ✓ Numerical 63-80  (18 questions) - COMPLETE
  * Batch 5: ✗ Verbal 83-102    (20 questions)
  * Batch 6: ✗ Verbal 103-122   (20 questions)
  * Batch 7: ✗ Verbal 123-142   (20 questions)
@@ -523,6 +523,150 @@ const QUESTIONS = [
     options: ['4', '5', '6', '7'],
     answer: 2,
     explanation: '8x = 36 + 12 = 48, so x = 48 ÷ 8 = 6.'
+  },
+  {
+    id: 63,
+    type: 'Numerical',
+    question: 'What is the next number? 6, 12, 24, 48, ?',
+    options: ['72', '84', '96', '108'],
+    answer: 2,
+    explanation: 'Each number doubles. 48 × 2 = 96.'
+  },
+  {
+    id: 64,
+    type: 'Numerical',
+    question: 'A recipe calls for 2 cups of flour for 12 cookies. How many cups for 30 cookies?',
+    options: ['4', '5', '6', '7'],
+    answer: 1,
+    explanation: '2 cups ÷ 12 cookies = 1/6 cup per cookie. 30 × 1/6 = 5 cups.'
+  },
+  {
+    id: 65,
+    type: 'Numerical',
+    question: 'What is the next number? 256, 128, 64, 32, ?',
+    options: ['8', '12', '16', '20'],
+    answer: 2,
+    explanation: 'Each number is halved. 32 ÷ 2 = 16.'
+  },
+  {
+    id: 66,
+    type: 'Numerical',
+    question: 'If a rectangle has area 72 and width 8, what is its length?',
+    options: ['7', '8', '9', '10'],
+    answer: 2,
+    explanation: 'Area = length × width, so length = 72 ÷ 8 = 9.'
+  },
+  {
+    id: 67,
+    type: 'Numerical',
+    question: 'What is 18% of 400?',
+    options: ['60', '68', '72', '80'],
+    answer: 2,
+    explanation: '0.18 × 400 = 72.'
+  },
+  {
+    id: 68,
+    type: 'Numerical',
+    question: 'What is the next number? 2, 5, 10, 17, 26, ?',
+    options: ['35', '37', '39', '41'],
+    answer: 1,
+    explanation: 'Differences increase by 2: +3, +5, +7, +9, +11. So 26 + 11 = 37.'
+  },
+  {
+    id: 69,
+    type: 'Numerical',
+    question: 'A store sells 80 items at $12 each. What is the total revenue?',
+    options: ['$860', '$920', '$960', '$1,000'],
+    answer: 2,
+    explanation: '80 × $12 = $960.'
+  },
+  {
+    id: 70,
+    type: 'Numerical',
+    question: 'What is the next number? 1, 5, 13, 25, 41, ?',
+    options: ['57', '61', '65', '69'],
+    answer: 1,
+    explanation: 'Differences are 4, 8, 12, 16, 20. So 41 + 20 = 61.'
+  },
+  {
+    id: 71,
+    type: 'Numerical',
+    question: 'If 9 workers complete a job in 12 days, how many days for 6 workers?',
+    options: ['15', '16', '17', '18'],
+    answer: 3,
+    explanation: 'Total work = 9 × 12 = 108 worker-days. 108 ÷ 6 = 18 days.'
+  },
+  {
+    id: 72,
+    type: 'Numerical',
+    question: 'What is the next number? 4, 8, 16, 32, 64, ?',
+    options: ['96', '108', '128', '144'],
+    answer: 2,
+    explanation: 'Each number doubles. 64 × 2 = 128.'
+  },
+  {
+    id: 73,
+    type: 'Numerical',
+    question: 'What is 85% of 200?',
+    options: ['160', '165', '170', '175'],
+    answer: 2,
+    explanation: '0.85 × 200 = 170.'
+  },
+  {
+    id: 74,
+    type: 'Numerical',
+    question: 'What is the next number? 10, 20, 30, 40, ?',
+    options: ['45', '50', '55', '60'],
+    answer: 1,
+    explanation: 'Add 10 each time. 40 + 10 = 50.'
+  },
+  {
+    id: 75,
+    type: 'Numerical',
+    question: 'If a car uses 8 gallons to travel 240 miles, what is the miles per gallon?',
+    options: ['25', '28', '30', '32'],
+    answer: 2,
+    explanation: '240 miles ÷ 8 gallons = 30 mpg.'
+  },
+  {
+    id: 76,
+    type: 'Numerical',
+    question: 'What is the next number? 3, 7, 15, 31, 63, ?',
+    options: ['95', '111', '127', '143'],
+    answer: 2,
+    explanation: 'Pattern: double and add 1. 63 × 2 + 1 = 127.'
+  },
+  {
+    id: 77,
+    type: 'Numerical',
+    question: 'A phone costs $600 and depreciates 25% in the first year. What is its value?',
+    options: ['$400', '$425', '$450', '$475'],
+    answer: 2,
+    explanation: '25% of $600 = $150. Value = $600 - $150 = $450.'
+  },
+  {
+    id: 78,
+    type: 'Numerical',
+    question: 'What is the next number? 1, 3, 6, 10, 15, ?',
+    options: ['18', '19', '21', '24'],
+    answer: 2,
+    explanation: 'Triangular numbers: +2, +3, +4, +5, +6. So 15 + 6 = 21.'
+  },
+  {
+    id: 79,
+    type: 'Numerical',
+    question: 'If 4x + 9 = 45, what is x?',
+    options: ['7', '8', '9', '10'],
+    answer: 2,
+    explanation: '4x = 45 - 9 = 36, so x = 36 ÷ 4 = 9.'
+  },
+  {
+    id: 80,
+    type: 'Numerical',
+    question: 'What is the next number? 5, 11, 23, 47, ?',
+    options: ['71', '83', '95', '107'],
+    answer: 2,
+    explanation: 'Pattern: double and add 1. 47 × 2 + 1 = 95.'
   },
 
   // ========================================
