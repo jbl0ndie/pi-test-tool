@@ -7,9 +7,9 @@
  * ==================
  * Numerical (Goal: 80):  [ 80/80 ] ✓ COMPLETE - IDs 1-80
  * Verbal (Goal: 80):     [ 80/80 ] ✓ COMPLETE - IDs 81-160
- * Abstract (Goal: 40):   [ 2/40 ] - IDs 161-200
+ * Abstract (Goal: 40):   [ 22/40 ] - IDs 161-200
  * ==================
- * TOTAL: 162/200 questions complete (81%)
+ * TOTAL: 182/200 questions complete (91%)
  * 
  * BATCH PLAN (20 questions per batch):
  * Batch 1: ✓ Numerical 3-22   (20 questions) - COMPLETE
@@ -20,7 +20,7 @@
  * Batch 6: ✓ Verbal 103-122   (20 questions) - COMPLETE
  * Batch 7: ✓ Verbal 123-142   (20 questions) - COMPLETE
  * Batch 8: ✓ Verbal 143-160   (18 questions) - COMPLETE
- * Batch 9: ✗ Abstract 163-182 (20 questions)
+ * Batch 9: ✓ Abstract 163-182 (20 questions) - COMPLETE
  * Batch 10: ✗ Abstract 183-200 (18 questions)
  */
 
@@ -1331,7 +1331,167 @@ const QUESTIONS = [
     options: ['△', '◯', '□', '◻️'],
     answer: 0,
     explanation: '△ is a triangle, the others are circles or squares.'
-  }
+  },
+  {
+    id: 163,
+    type: 'Abstract',
+    question: 'What comes next? ●, ●●, ●●●, ●●●●, ?',
+    options: ['●●●●', '●●●●●', '●●●●●●', '●●'],
+    answer: 1,
+    explanation: 'The pattern adds one dot each time.'
+  },
+  {
+    id: 164,
+    type: 'Abstract',
+    question: 'Which shape is different? ▲, ▲, ▼, ▲',
+    options: ['First', 'Second', 'Third', 'Fourth'],
+    answer: 2,
+    explanation: 'The third shape points downward while others point up.'
+  },
+  {
+    id: 165,
+    type: 'Abstract',
+    question: 'What comes next? □, ■, □, ■, ?',
+    options: ['□', '■', '▢', '▣'],
+    answer: 0,
+    explanation: 'The pattern alternates between empty and filled squares.'
+  },
+  {
+    id: 166,
+    type: 'Abstract',
+    question: 'Which doesn\'t belong? ○, ◐, ◑, □',
+    options: ['○', '◐', '◑', '□'],
+    answer: 3,
+    explanation: 'The square is the only non-circular shape.'
+  },
+  {
+    id: 167,
+    type: 'Abstract',
+    question: 'What comes next? ▸, ▸▸, ▸▸▸, ?',
+    options: ['▸', '▸▸', '▸▸▸▸', '▸▸▸'],
+    answer: 2,
+    explanation: 'Each step adds one more triangle.'
+  },
+  {
+    id: 168,
+    type: 'Abstract',
+    question: 'Find the pattern: ★, ☆, ★, ☆, ?',
+    options: ['★', '☆', '✦', '✧'],
+    answer: 0,
+    explanation: 'The pattern alternates between filled and empty stars.'
+  },
+  {
+    id: 169,
+    type: 'Abstract',
+    question: 'Which is different? ◆, ◇, ◆, ◆',
+    options: ['First', 'Second', 'Third', 'Fourth'],
+    answer: 1,
+    explanation: 'The second diamond is empty while others are filled.'
+  },
+  {
+    id: 170,
+    type: 'Abstract',
+    question: 'What comes next? ◀, ▶, ◀, ▶, ?',
+    options: ['◀', '▶', '▲', '▼'],
+    answer: 0,
+    explanation: 'The pattern alternates left and right arrows.'
+  },
+  {
+    id: 171,
+    type: 'Abstract',
+    question: 'Find the odd one: ▓, ▓, ▒, ▓',
+    options: ['First', 'Second', 'Third', 'Fourth'],
+    answer: 2,
+    explanation: 'The third block has a different shading pattern.'
+  },
+  {
+    id: 172,
+    type: 'Abstract',
+    question: 'What comes next? ○, ○○, ○○○, ○○○○, ?',
+    options: ['○○○○○', '○○○○', '○○○', '○○'],
+    answer: 0,
+    explanation: 'Each step adds one more circle.'
+  },
+  {
+    id: 173,
+    type: 'Abstract',
+    question: 'Which is different? ▬, ▬, ▭, ▬',
+    options: ['First', 'Second', 'Third', 'Fourth'],
+    answer: 2,
+    explanation: 'The third rectangle is oriented differently.'
+  },
+  {
+    id: 174,
+    type: 'Abstract',
+    question: 'What comes next? ◢, ◣, ◢, ◣, ?',
+    options: ['◢', '◣', '◤', '◥'],
+    answer: 0,
+    explanation: 'The pattern alternates between two triangle orientations.'
+  },
+  {
+    id: 175,
+    type: 'Abstract',
+    question: 'Find the pattern: ⬟, ⬢, ⬟, ⬢, ?',
+    options: ['⬟', '⬢', '⬡', '⬣'],
+    answer: 0,
+    explanation: 'The pattern alternates between two hexagon styles.'
+  },
+  {
+    id: 176,
+    type: 'Abstract',
+    question: 'Which doesn\'t match? ◉, ◉, ◎, ◉',
+    options: ['First', 'Second', 'Third', 'Fourth'],
+    answer: 2,
+    explanation: 'The third circle has a different interior pattern.'
+  },
+  {
+    id: 177,
+    type: 'Abstract',
+    question: 'What comes next? ▲, ▲▲, ▲▲▲, ?',
+    options: ['▲', '▲▲', '▲▲▲▲', '▲▲▲'],
+    answer: 2,
+    explanation: 'Each step adds one more triangle.'
+  },
+  {
+    id: 178,
+    type: 'Abstract',
+    question: 'Find the odd one: ⬛, ⬜, ⬛, ⬛',
+    options: ['First', 'Second', 'Third', 'Fourth'],
+    answer: 1,
+    explanation: 'The second square is white while others are black.'
+  },
+  {
+    id: 179,
+    type: 'Abstract',
+    question: 'What comes next? ▼, ▼, ▲, ▼, ▼, ▲, ?',
+    options: ['▼', '▲', '◄', '►'],
+    answer: 0,
+    explanation: 'Pattern: two down, one up, repeating.'
+  },
+  {
+    id: 180,
+    type: 'Abstract',
+    question: 'Which is different? ◆, ◆, ◇, ◆',
+    options: ['First', 'Second', 'Third', 'Fourth'],
+    answer: 2,
+    explanation: 'The third diamond is outlined while others are filled.'
+  },
+  {
+    id: 181,
+    type: 'Abstract',
+    question: 'What comes next? ●, ○, ●, ○, ●, ?',
+    options: ['●', '○', '◐', '◑'],
+    answer: 1,
+    explanation: 'The pattern alternates between filled and empty circles.'
+  },
+  {
+    id: 182,
+    type: 'Abstract',
+    question: 'Find the pattern: ■, □, ■, □, ■, ?',
+    options: ['■', '□', '▪', '▫'],
+    answer: 1,
+    explanation: 'The pattern alternates between filled and empty squares.'
+  },
 
   // NOTE: More questions will be added in batches below
   // Ready for Batch 1: IDs 3-22 (Numerical)
