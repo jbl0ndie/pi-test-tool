@@ -5,11 +5,11 @@
  * 
  * PROGRESS TRACKER:
  * ==================
- * Numerical (Goal: 120):  [ 100/120 ] - IDs 1-80, 201-240
+ * Numerical (Goal: 120):  [ 120/120 ] ✓ COMPLETE - IDs 1-80, 201-240
  * Verbal (Goal: 120):     [ 80/120 ] - IDs 81-160, 241-280
  * Abstract (Goal: 60):    [ 40/60 ] - IDs 161-200, 281-300
  * ==================
- * TOTAL: 220/300 questions complete (73%)
+ * TOTAL: 240/300 questions complete (80%)
  * 
  * BATCH PLAN (20 questions per batch):
  * === PHASE 1 (Batches 1-10) - COMPLETE ===
@@ -26,7 +26,7 @@
  * 
  * === PHASE 2 (Batches 11-15) - 100 NEW QUESTIONS ===
  * Batch 11: ✓ Numerical 201-220 (20 questions) - COMPLETE
- * Batch 12: ✗ Numerical 221-240 (20 questions)
+ * Batch 12: ✓ Numerical 221-240 (20 questions) - COMPLETE
  * Batch 13: ✗ Verbal 241-260    (20 questions)
  * Batch 14: ✗ Verbal 261-280    (20 questions)
  * Batch 15: ✗ Abstract 281-300  (20 questions)
@@ -1809,5 +1809,165 @@ const QUESTIONS = [
     options: ['12', '14', '16', '18'],
     answer: 1,
     explanation: 'Perimeter = 2(l + w). 48 = 2(l + 10) → 24 = l + 10 → l = 14.'
+  },
+  {
+    id: 221,
+    type: 'Numerical',
+    question: 'What is the next number? 15, 30, 60, 120, ?',
+    options: ['180', '210', '240', '270'],
+    answer: 2,
+    explanation: 'Each number doubles. 120 × 2 = 240.'
+  },
+  {
+    id: 222,
+    type: 'Numerical',
+    question: 'If 9x - 18 = 45, what is x?',
+    options: ['5', '6', '7', '8'],
+    answer: 2,
+    explanation: '9x = 45 + 18 = 63, so x = 63 ÷ 9 = 7.'
+  },
+  {
+    id: 223,
+    type: 'Numerical',
+    question: 'What is 35% of 400?',
+    options: ['120', '130', '140', '150'],
+    answer: 2,
+    explanation: '0.35 × 400 = 140.'
+  },
+  {
+    id: 224,
+    type: 'Numerical',
+    question: 'What is the next number? 1, 4, 9, 16, 25, 36, ?',
+    options: ['42', '45', '49', '54'],
+    answer: 2,
+    explanation: 'Perfect squares: 1², 2², 3², 4², 5², 6², 7² = 49.'
+  },
+  {
+    id: 225,
+    type: 'Numerical',
+    question: 'A store marks up items 40%. If cost is $50, what is selling price?',
+    options: ['$65', '$70', '$75', '$80'],
+    answer: 1,
+    explanation: '40% of $50 = $20. Selling price = $50 + $20 = $70.'
+  },
+  {
+    id: 226,
+    type: 'Numerical',
+    question: 'What is the next number? 2, 9, 28, 65, ?',
+    options: ['100', '126', '152', '178'],
+    answer: 1,
+    explanation: 'Pattern: n³ + 1. Next is 5³ + 1 = 125 + 1 = 126.'
+  },
+  {
+    id: 227,
+    type: 'Numerical',
+    question: 'If a triangle has sides 5, 12, and 13, what type is it?',
+    options: ['Equilateral', 'Isosceles', 'Right', 'Obtuse'],
+    answer: 2,
+    explanation: '5² + 12² = 25 + 144 = 169 = 13². It\'s a right triangle.'
+  },
+  {
+    id: 228,
+    type: 'Numerical',
+    question: 'What is the next number? 0, 1, 1, 2, 3, 5, 8, 13, ?',
+    options: ['18', '19', '20', '21'],
+    answer: 3,
+    explanation: 'Fibonacci: add previous two. 8 + 13 = 21.'
+  },
+  {
+    id: 229,
+    type: 'Numerical',
+    question: 'What is 7³?',
+    options: ['243', '294', '343', '392'],
+    answer: 2,
+    explanation: '7³ = 7 × 7 × 7 = 343.'
+  },
+  {
+    id: 230,
+    type: 'Numerical',
+    question: 'If 12 pencils cost $9, what is the cost of 20 pencils?',
+    options: ['$13', '$14', '$15', '$16'],
+    answer: 2,
+    explanation: 'One pencil = $9 ÷ 12 = $0.75. 20 pencils = 20 × $0.75 = $15.'
+  },
+  {
+    id: 231,
+    type: 'Numerical',
+    question: 'What is the next number? 6, 11, 21, 36, 56, ?',
+    options: ['71', '76', '81', '86'],
+    answer: 2,
+    explanation: 'Differences: +5, +10, +15, +20, +25. So 56 + 25 = 81.'
+  },
+  {
+    id: 232,
+    type: 'Numerical',
+    question: 'What is 45% of 220?',
+    options: ['89', '94', '99', '104'],
+    answer: 2,
+    explanation: '0.45 × 220 = 99.'
+  },
+  {
+    id: 233,
+    type: 'Numerical',
+    question: 'What is the next number? 729, 243, 81, 27, ?',
+    options: ['3', '6', '9', '12'],
+    answer: 2,
+    explanation: 'Each number is divided by 3. 27 ÷ 3 = 9.'
+  },
+  {
+    id: 234,
+    type: 'Numerical',
+    question: 'If a square has area 144, what is its perimeter?',
+    options: ['36', '40', '44', '48'],
+    answer: 3,
+    explanation: 'Side = √144 = 12. Perimeter = 4 × 12 = 48.'
+  },
+  {
+    id: 235,
+    type: 'Numerical',
+    question: 'What is the next number? 3, 8, 18, 38, 78, ?',
+    options: ['128', '138', '148', '158'],
+    answer: 3,
+    explanation: 'Pattern: double and add 2. 78 × 2 + 2 = 158.'
+  },
+  {
+    id: 236,
+    type: 'Numerical',
+    question: 'A car travels 450 km in 5 hours. What is its average speed?',
+    options: ['85 km/h', '90 km/h', '95 km/h', '100 km/h'],
+    answer: 1,
+    explanation: 'Speed = 450 ÷ 5 = 90 km/h.'
+  },
+  {
+    id: 237,
+    type: 'Numerical',
+    question: 'What is the next number? 2, 8, 18, 32, 50, ?',
+    options: ['68', '70', '72', '74'],
+    answer: 2,
+    explanation: 'Pattern: 2n². Next is 2(6²) = 2(36) = 72.'
+  },
+  {
+    id: 238,
+    type: 'Numerical',
+    question: 'If a population of 8,000 grows by 25%, what is the new population?',
+    options: ['9,500', '9,800', '10,000', '10,200'],
+    answer: 2,
+    explanation: '25% of 8,000 = 2,000. New = 8,000 + 2,000 = 10,000.'
+  },
+  {
+    id: 239,
+    type: 'Numerical',
+    question: 'What is the next number? 5, 7, 11, 17, 25, ?',
+    options: ['33', '35', '37', '39'],
+    answer: 1,
+    explanation: 'Differences increase by 2: +2, +4, +6, +8, +10. So 25 + 10 = 35.'
+  },
+  {
+    id: 240,
+    type: 'Numerical',
+    question: 'What is 11²?',
+    options: ['111', '121', '131', '141'],
+    answer: 1,
+    explanation: '11² = 11 × 11 = 121.'
   }
 ];
