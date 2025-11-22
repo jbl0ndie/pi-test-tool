@@ -6,10 +6,10 @@
  * PROGRESS TRACKER:
  * ==================
  * Numerical (Goal: 120):  [ 120/120 ] ✓ COMPLETE - IDs 1-80, 201-240
- * Verbal (Goal: 120):     [ 100/120 ] - IDs 81-160, 241-280
+ * Verbal (Goal: 120):     [ 120/120 ] ✓ COMPLETE - IDs 81-160, 241-280
  * Abstract (Goal: 60):    [ 40/60 ] - IDs 161-200, 281-300
  * ==================
- * TOTAL: 260/300 questions complete (87%)
+ * TOTAL: 280/300 questions complete (93%)
  * 
  * BATCH PLAN (20 questions per batch):
  * === PHASE 1 (Batches 1-10) - COMPLETE ===
@@ -28,7 +28,7 @@
  * Batch 11: ✓ Numerical 201-220 (20 questions) - COMPLETE
  * Batch 12: ✓ Numerical 221-240 (20 questions) - COMPLETE
  * Batch 13: ✓ Verbal 241-260    (20 questions) - COMPLETE
- * Batch 14: ✗ Verbal 261-280    (20 questions)
+ * Batch 14: ✓ Verbal 261-280    (20 questions) - COMPLETE
  * Batch 15: ✗ Abstract 281-300  (20 questions)
  */
 
@@ -2131,5 +2131,165 @@ const QUESTIONS = [
     options: ['Wood', 'Picture', 'Wall', 'Glass'],
     answer: 1,
     explanation: 'A frame holds a picture, just as an envelope holds a letter.'
+  },
+  {
+    id: 261,
+    type: 'Verbal',
+    question: 'Which word means the same as "serene"?',
+    options: ['Chaotic', 'Peaceful', 'Noisy', 'Busy'],
+    answer: 1,
+    explanation: 'Serene means peaceful and calm.'
+  },
+  {
+    id: 262,
+    type: 'Verbal',
+    question: 'Complete the analogy: Curtain is to Window as Rug is to ...',
+    options: ['Carpet', 'Floor', 'Room', 'House'],
+    answer: 1,
+    explanation: 'A rug covers the floor, just as a curtain covers a window.'
+  },
+  {
+    id: 263,
+    type: 'Verbal',
+    question: 'Which word is most opposite in meaning to "abundant"?',
+    options: ['Plentiful', 'Scarce', 'Ample', 'Copious'],
+    answer: 1,
+    explanation: 'Scarce is the antonym of abundant.'
+  },
+  {
+    id: 264,
+    type: 'Verbal',
+    question: 'Complete the analogy: Faucet is to Water as Switch is to ...',
+    options: ['Light', 'Electricity', 'Power', 'Wall'],
+    answer: 1,
+    explanation: 'A switch controls light, just as a faucet controls water.'
+  },
+  {
+    id: 265,
+    type: 'Verbal',
+    question: 'Which word means the same as "novice"?',
+    options: ['Expert', 'Beginner', 'Master', 'Professional'],
+    answer: 1,
+    explanation: 'Novice means beginner or newcomer.'
+  },
+  {
+    id: 266,
+    type: 'Verbal',
+    question: 'Complete the analogy: Saddle is to Horse as Seat is to ...',
+    options: ['Chair', 'Bicycle', 'Cushion', 'Bench'],
+    answer: 1,
+    explanation: 'A seat is on a bicycle, just as a saddle is on a horse.'
+  },
+  {
+    id: 267,
+    type: 'Verbal',
+    question: 'Which word is most opposite in meaning to "ascend"?',
+    options: ['Rise', 'Descend', 'Climb', 'Elevate'],
+    answer: 1,
+    explanation: 'Descend is the antonym of ascend.'
+  },
+  {
+    id: 268,
+    type: 'Verbal',
+    question: 'Complete the analogy: Petal is to Flower as Scale is to ...',
+    options: ['Weight', 'Fish', 'Balance', 'Metal'],
+    answer: 1,
+    explanation: 'A scale is part of a fish, just as a petal is part of a flower.'
+  },
+  {
+    id: 269,
+    type: 'Verbal',
+    question: 'Which word means the same as "zealous"?',
+    options: ['Indifferent', 'Enthusiastic', 'Apathetic', 'Lazy'],
+    answer: 1,
+    explanation: 'Zealous means enthusiastic and passionate.'
+  },
+  {
+    id: 270,
+    type: 'Verbal',
+    question: 'Complete the analogy: Stripe is to Zebra as Spot is to ...',
+    options: ['Leopard', 'Pattern', 'Color', 'Animal'],
+    answer: 0,
+    explanation: 'A leopard has spots, just as a zebra has stripes.'
+  },
+  {
+    id: 271,
+    type: 'Verbal',
+    question: 'Which word is most opposite in meaning to "opaque"?',
+    options: ['Dark', 'Transparent', 'Solid', 'Thick'],
+    answer: 1,
+    explanation: 'Transparent is the antonym of opaque.'
+  },
+  {
+    id: 272,
+    type: 'Verbal',
+    question: 'Complete the analogy: Recipe is to Chef as Blueprint is to ...',
+    options: ['Paper', 'Architect', 'Building', 'Plan'],
+    answer: 1,
+    explanation: 'An architect uses a blueprint, just as a chef uses a recipe.'
+  },
+  {
+    id: 273,
+    type: 'Verbal',
+    question: 'Which word means the same as "benevolent"?',
+    options: ['Cruel', 'Kind', 'Mean', 'Harsh'],
+    answer: 1,
+    explanation: 'Benevolent means kind and generous.'
+  },
+  {
+    id: 274,
+    type: 'Verbal',
+    question: 'Complete the analogy: Thorn is to Rose as Quill is to ...',
+    options: ['Feather', 'Porcupine', 'Sharp', 'Pen'],
+    answer: 1,
+    explanation: 'A porcupine has quills, just as a rose has thorns.'
+  },
+  {
+    id: 275,
+    type: 'Verbal',
+    question: 'Which word is most opposite in meaning to "diminish"?',
+    options: ['Decrease', 'Increase', 'Reduce', 'Lessen'],
+    answer: 1,
+    explanation: 'Increase is the antonym of diminish.'
+  },
+  {
+    id: 276,
+    type: 'Verbal',
+    question: 'Complete the analogy: Mast is to Sail as Pole is to ...',
+    options: ['Wood', 'Flag', 'Metal', 'Height'],
+    answer: 1,
+    explanation: 'A flag hangs from a pole, just as a sail hangs from a mast.'
+  },
+  {
+    id: 277,
+    type: 'Verbal',
+    question: 'Which word means the same as "arid"?',
+    options: ['Wet', 'Dry', 'Humid', 'Moist'],
+    answer: 1,
+    explanation: 'Arid means dry and lacking moisture.'
+  },
+  {
+    id: 278,
+    type: 'Verbal',
+    question: 'Complete the analogy: Dial is to Clock as Screen is to ...',
+    options: ['Glass', 'Computer', 'Display', 'Television'],
+    answer: 1,
+    explanation: 'A screen is part of a computer, just as a dial is part of a clock.'
+  },
+  {
+    id: 279,
+    type: 'Verbal',
+    question: 'Which word is most opposite in meaning to "commence"?',
+    options: ['Start', 'Conclude', 'Begin', 'Initiate'],
+    answer: 1,
+    explanation: 'Conclude is the antonym of commence.'
+  },
+  {
+    id: 280,
+    type: 'Verbal',
+    question: 'Complete the analogy: Shell is to Turtle as Armor is to ...',
+    options: ['Metal', 'Knight', 'Protection', 'Warrior'],
+    answer: 1,
+    explanation: 'A knight wears armor, just as a turtle has a shell.'
   }
 ];
