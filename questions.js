@@ -1,17 +1,18 @@
 /* 
  * PI COGNITIVE ASSESSMENT PRACTICE - QUESTION BANK
- * Target: 200+ questions for robust practice
- * Distribution: ~80 Numerical, ~80 Verbal, ~40 Abstract
+ * Target: 300 questions for robust practice variety
+ * Distribution: ~120 Numerical, ~120 Verbal, ~60 Abstract
  * 
  * PROGRESS TRACKER:
  * ==================
- * Numerical (Goal: 80):  [ 80/80 ] ✓ COMPLETE - IDs 1-80
- * Verbal (Goal: 80):     [ 80/80 ] ✓ COMPLETE - IDs 81-160
- * Abstract (Goal: 40):   [ 40/40 ] ✓ COMPLETE - IDs 161-200
+ * Numerical (Goal: 120):  [ 100/120 ] - IDs 1-80, 201-240
+ * Verbal (Goal: 120):     [ 80/120 ] - IDs 81-160, 241-280
+ * Abstract (Goal: 60):    [ 40/60 ] - IDs 161-200, 281-300
  * ==================
- * TOTAL: 200/200 questions complete (100%) 🎉
+ * TOTAL: 220/300 questions complete (73%)
  * 
  * BATCH PLAN (20 questions per batch):
+ * === PHASE 1 (Batches 1-10) - COMPLETE ===
  * Batch 1: ✓ Numerical 3-22   (20 questions) - COMPLETE
  * Batch 2: ✓ Numerical 23-42  (20 questions) - COMPLETE
  * Batch 3: ✓ Numerical 43-62  (20 questions) - COMPLETE
@@ -22,6 +23,13 @@
  * Batch 8: ✓ Verbal 143-160   (18 questions) - COMPLETE
  * Batch 9: ✓ Abstract 163-182 (20 questions) - COMPLETE
  * Batch 10: ✓ Abstract 183-200 (18 questions) - COMPLETE
+ * 
+ * === PHASE 2 (Batches 11-15) - 100 NEW QUESTIONS ===
+ * Batch 11: ✓ Numerical 201-220 (20 questions) - COMPLETE
+ * Batch 12: ✗ Numerical 221-240 (20 questions)
+ * Batch 13: ✗ Verbal 241-260    (20 questions)
+ * Batch 14: ✗ Verbal 261-280    (20 questions)
+ * Batch 15: ✗ Abstract 281-300  (20 questions)
  */
 
 const QUESTIONS = [
@@ -1635,5 +1643,171 @@ const QUESTIONS = [
     options: ['First', 'Second', 'Third', 'Fourth'],
     answer: 2,
     explanation: 'The third square is white while others are black.'
+  },
+
+  // ========================================
+  // PHASE 2: ADDITIONAL QUESTIONS (IDs 201-300)
+  // ========================================
+  
+  // NUMERICAL REASONING - PHASE 2 (IDs 201-240)
+  {
+    id: 201,
+    type: 'Numerical',
+    question: 'What is the next number? 4, 11, 18, 25, ?',
+    options: ['30', '32', '34', '36'],
+    answer: 1,
+    explanation: 'Add 7 each time. 25 + 7 = 32.'
+  },
+  {
+    id: 202,
+    type: 'Numerical',
+    question: 'If a store sells 45 items at $8 each, what is total revenue?',
+    options: ['$320', '$340', '$360', '$380'],
+    answer: 2,
+    explanation: '45 × $8 = $360.'
+  },
+  {
+    id: 203,
+    type: 'Numerical',
+    question: 'What is 22% of 500?',
+    options: ['100', '110', '120', '130'],
+    answer: 1,
+    explanation: '0.22 × 500 = 110.'
+  },
+  {
+    id: 204,
+    type: 'Numerical',
+    question: 'What is the next number? 512, 256, 128, 64, ?',
+    options: ['16', '24', '32', '48'],
+    answer: 2,
+    explanation: 'Each number is halved. 64 ÷ 2 = 32.'
+  },
+  {
+    id: 205,
+    type: 'Numerical',
+    question: 'If 6x + 15 = 51, what is x?',
+    options: ['4', '5', '6', '7'],
+    answer: 2,
+    explanation: '6x = 51 - 15 = 36, so x = 36 ÷ 6 = 6.'
+  },
+  {
+    id: 206,
+    type: 'Numerical',
+    question: 'A recipe needs 3 eggs for 18 cookies. How many eggs for 48 cookies?',
+    options: ['6', '7', '8', '9'],
+    answer: 2,
+    explanation: '3 ÷ 18 = 1/6 egg per cookie. 48 × 1/6 = 8 eggs.'
+  },
+  {
+    id: 207,
+    type: 'Numerical',
+    question: 'What is the next number? 2, 6, 12, 20, 30, ?',
+    options: ['38', '40', '42', '44'],
+    answer: 2,
+    explanation: 'Differences increase by 2: +4, +6, +8, +10, +12. So 30 + 12 = 42.'
+  },
+  {
+    id: 208,
+    type: 'Numerical',
+    question: 'What is 65% of 300?',
+    options: ['175', '185', '195', '205'],
+    answer: 2,
+    explanation: '0.65 × 300 = 195.'
+  },
+  {
+    id: 209,
+    type: 'Numerical',
+    question: 'What is the next number? 1, 2, 6, 24, 120, ?',
+    options: ['480', '600', '720', '840'],
+    answer: 2,
+    explanation: 'Factorials: 1!, 2!, 3!, 4!, 5!, 6! = 720.'
+  },
+  {
+    id: 210,
+    type: 'Numerical',
+    question: 'If a laptop costs $800 after a 20% discount, what was the original price?',
+    options: ['$960', '$1,000', '$1,040', '$1,100'],
+    answer: 1,
+    explanation: 'If 80% = $800, then 100% = $800 ÷ 0.8 = $1,000.'
+  },
+  {
+    id: 211,
+    type: 'Numerical',
+    question: 'What is the next number? 7, 21, 63, 189, ?',
+    options: ['378', '441', '504', '567'],
+    answer: 3,
+    explanation: 'Each number is multiplied by 3. 189 × 3 = 567.'
+  },
+  {
+    id: 212,
+    type: 'Numerical',
+    question: 'A circle has radius 7. What is its circumference? (Use π ≈ 3.14)',
+    options: ['38', '40', '42', '44'],
+    answer: 3,
+    explanation: 'Circumference = 2πr = 2 × 3.14 × 7 ≈ 44.'
+  },
+  {
+    id: 213,
+    type: 'Numerical',
+    question: 'What is the next number? 2, 4, 7, 11, 16, ?',
+    options: ['20', '21', '22', '23'],
+    answer: 2,
+    explanation: 'Differences increase by 1: +2, +3, +4, +5, +6. So 16 + 6 = 22.'
+  },
+  {
+    id: 214,
+    type: 'Numerical',
+    question: 'If 10 workers complete a task in 8 days, how many days for 16 workers?',
+    options: ['4', '5', '6', '7'],
+    answer: 1,
+    explanation: 'Total work = 10 × 8 = 80 worker-days. 80 ÷ 16 = 5 days.'
+  },
+  {
+    id: 215,
+    type: 'Numerical',
+    question: 'What is the next number? 1000, 500, 250, 125, ?',
+    options: ['50', '62.5', '75', '100'],
+    answer: 1,
+    explanation: 'Each number is halved. 125 ÷ 2 = 62.5.'
+  },
+  {
+    id: 216,
+    type: 'Numerical',
+    question: 'What is 8² + 6²?',
+    options: ['80', '90', '100', '110'],
+    answer: 2,
+    explanation: '8² = 64, 6² = 36. 64 + 36 = 100.'
+  },
+  {
+    id: 217,
+    type: 'Numerical',
+    question: 'What is the next number? 3, 5, 9, 17, 33, ?',
+    options: ['49', '57', '65', '73'],
+    answer: 2,
+    explanation: 'Pattern: double and subtract 1. 33 × 2 - 1 = 65.'
+  },
+  {
+    id: 218,
+    type: 'Numerical',
+    question: 'If a product increases from $50 to $65, what is the percent increase?',
+    options: ['25%', '30%', '35%', '40%'],
+    answer: 1,
+    explanation: 'Increase = $15. Percent = (15 ÷ 50) × 100 = 30%.'
+  },
+  {
+    id: 219,
+    type: 'Numerical',
+    question: 'What is the next number? 1, 1, 2, 6, 24, ?',
+    options: ['48', '72', '96', '120'],
+    answer: 3,
+    explanation: 'Multiply by position: 1, 1×2, 2×3, 6×4, 24×5 = 120.'
+  },
+  {
+    id: 220,
+    type: 'Numerical',
+    question: 'A rectangle has perimeter 48 and width 10. What is its length?',
+    options: ['12', '14', '16', '18'],
+    answer: 1,
+    explanation: 'Perimeter = 2(l + w). 48 = 2(l + 10) → 24 = l + 10 → l = 14.'
   }
 ];
