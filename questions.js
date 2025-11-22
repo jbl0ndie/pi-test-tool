@@ -6,10 +6,10 @@
  * PROGRESS TRACKER:
  * ==================
  * Numerical (Goal: 120):  [ 120/120 ] ✓ COMPLETE - IDs 1-80, 201-240
- * Verbal (Goal: 120):     [ 80/120 ] - IDs 81-160, 241-280
+ * Verbal (Goal: 120):     [ 100/120 ] - IDs 81-160, 241-280
  * Abstract (Goal: 60):    [ 40/60 ] - IDs 161-200, 281-300
  * ==================
- * TOTAL: 240/300 questions complete (80%)
+ * TOTAL: 260/300 questions complete (87%)
  * 
  * BATCH PLAN (20 questions per batch):
  * === PHASE 1 (Batches 1-10) - COMPLETE ===
@@ -27,7 +27,7 @@
  * === PHASE 2 (Batches 11-15) - 100 NEW QUESTIONS ===
  * Batch 11: ✓ Numerical 201-220 (20 questions) - COMPLETE
  * Batch 12: ✓ Numerical 221-240 (20 questions) - COMPLETE
- * Batch 13: ✗ Verbal 241-260    (20 questions)
+ * Batch 13: ✓ Verbal 241-260    (20 questions) - COMPLETE
  * Batch 14: ✗ Verbal 261-280    (20 questions)
  * Batch 15: ✗ Abstract 281-300  (20 questions)
  */
@@ -1969,5 +1969,167 @@ const QUESTIONS = [
     options: ['111', '121', '131', '141'],
     answer: 1,
     explanation: '11² = 11 × 11 = 121.'
+  },
+
+  // VERBAL REASONING - PHASE 2 (IDs 241-280)
+  {
+    id: 241,
+    type: 'Verbal',
+    question: 'Which word means the same as "skeptical"?',
+    options: ['Trusting', 'Doubtful', 'Believing', 'Certain'],
+    answer: 1,
+    explanation: 'Skeptical means doubtful or questioning.'
+  },
+  {
+    id: 242,
+    type: 'Verbal',
+    question: 'Complete the analogy: Rain is to Umbrella as Sun is to ...',
+    options: ['Cloud', 'Sunglasses', 'Heat', 'Sky'],
+    answer: 1,
+    explanation: 'Sunglasses protect from sun, just as an umbrella protects from rain.'
+  },
+  {
+    id: 243,
+    type: 'Verbal',
+    question: 'Which word is most opposite in meaning to "rigid"?',
+    options: ['Stiff', 'Flexible', 'Hard', 'Firm'],
+    answer: 1,
+    explanation: 'Flexible is the antonym of rigid.'
+  },
+  {
+    id: 244,
+    type: 'Verbal',
+    question: 'Complete the analogy: Dentist is to Teeth as Optometrist is to ...',
+    options: ['Glasses', 'Eyes', 'Vision', 'Sight'],
+    answer: 1,
+    explanation: 'An optometrist treats eyes, just as a dentist treats teeth.'
+  },
+  {
+    id: 245,
+    type: 'Verbal',
+    question: 'Which word means the same as "tenacious"?',
+    options: ['Weak', 'Persistent', 'Timid', 'Hesitant'],
+    answer: 1,
+    explanation: 'Tenacious means persistent or determined.'
+  },
+  {
+    id: 246,
+    type: 'Verbal',
+    question: 'Complete the analogy: Flour is to Cake as Cement is to ...',
+    options: ['Building', 'Concrete', 'Stone', 'Wall'],
+    answer: 1,
+    explanation: 'Cement is used to make concrete, just as flour is used to make cake.'
+  },
+  {
+    id: 247,
+    type: 'Verbal',
+    question: 'Which word is most opposite in meaning to "harmony"?',
+    options: ['Agreement', 'Discord', 'Peace', 'Unity'],
+    answer: 1,
+    explanation: 'Discord is the antonym of harmony.'
+  },
+  {
+    id: 248,
+    type: 'Verbal',
+    question: 'Complete the analogy: Sail is to Wind as Kite is to ...',
+    options: ['String', 'Sky', 'Wind', 'Flight'],
+    answer: 2,
+    explanation: 'Both a sail and a kite are moved by wind.'
+  },
+  {
+    id: 249,
+    type: 'Verbal',
+    question: 'Which word means the same as "eloquent"?',
+    options: ['Silent', 'Articulate', 'Unclear', 'Mumbling'],
+    answer: 1,
+    explanation: 'Eloquent means articulate and expressive in speech.'
+  },
+  {
+    id: 250,
+    type: 'Verbal',
+    question: 'Complete the analogy: Telescope is to Stars as Microscope is to ...',
+    options: ['Small', 'Cells', 'Lab', 'Science'],
+    answer: 1,
+    explanation: 'A microscope views cells, just as a telescope views stars.'
+  },
+  {
+    id: 251,
+    type: 'Verbal',
+    question: 'Which word is most opposite in meaning to "mundane"?',
+    options: ['Ordinary', 'Extraordinary', 'Common', 'Typical'],
+    answer: 1,
+    explanation: 'Extraordinary is the antonym of mundane.'
+  },
+  {
+    id: 252,
+    type: 'Verbal',
+    question: 'Complete the analogy: Pen is to Ink as Candle is to ...',
+    options: ['Light', 'Wax', 'Flame', 'Dark'],
+    answer: 1,
+    explanation: 'A candle is made of wax, just as a pen contains ink.'
+  },
+  {
+    id: 253,
+    type: 'Verbal',
+    question: 'Which word means the same as "ambiguous"?',
+    options: ['Clear', 'Vague', 'Obvious', 'Definite'],
+    answer: 1,
+    explanation: 'Ambiguous means vague or unclear.'
+  },
+  {
+    id: 254,
+    type: 'Verbal',
+    question: 'Complete the analogy: Crown is to King as Badge is to ...',
+    options: ['Metal', 'Officer', 'Police', 'Authority'],
+    answer: 1,
+    explanation: 'An officer wears a badge, just as a king wears a crown.'
+  },
+  {
+    id: 255,
+    type: 'Verbal',
+    question: 'Which word is most opposite in meaning to "conceal"?',
+    options: ['Hide', 'Reveal', 'Cover', 'Mask'],
+    answer: 1,
+    explanation: 'Reveal is the antonym of conceal.'
+  },
+  {
+    id: 256,
+    type: 'Verbal',
+    question: 'Complete the analogy: Anchor is to Ship as Brake is to ...',
+    options: ['Stop', 'Car', 'Speed', 'Pedal'],
+    answer: 1,
+    explanation: 'A brake stops a car, just as an anchor stops a ship.'
+  },
+  {
+    id: 257,
+    type: 'Verbal',
+    question: 'Which word means the same as "candid"?',
+    options: ['Dishonest', 'Honest', 'Secretive', 'Deceptive'],
+    answer: 1,
+    explanation: 'Candid means honest and straightforward.'
+  },
+  {
+    id: 258,
+    type: 'Verbal',
+    question: 'Complete the analogy: Acorn is to Oak as Seed is to ...',
+    options: ['Soil', 'Plant', 'Garden', 'Root'],
+    answer: 1,
+    explanation: 'A seed grows into a plant, just as an acorn grows into an oak.'
+  },
+  {
+    id: 259,
+    type: 'Verbal',
+    question: 'Which word is most opposite in meaning to "barren"?',
+    options: ['Empty', 'Fertile', 'Dry', 'Desolate'],
+    answer: 1,
+    explanation: 'Fertile is the antonym of barren.'
+  },
+  {
+    id: 260,
+    type: 'Verbal',
+    question: 'Complete the analogy: Envelope is to Letter as Frame is to ...',
+    options: ['Wood', 'Picture', 'Wall', 'Glass'],
+    answer: 1,
+    explanation: 'A frame holds a picture, just as an envelope holds a letter.'
   }
 ];
