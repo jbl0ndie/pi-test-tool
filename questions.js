@@ -6,17 +6,17 @@
  * PROGRESS TRACKER:
  * ==================
  * Numerical (Goal: 80):  [ 80/80 ] ✓ COMPLETE - IDs 1-80
- * Verbal (Goal: 80):     [ 2/80 ] - IDs 81-160  
+ * Verbal (Goal: 80):     [ 22/80 ] - IDs 81-160  
  * Abstract (Goal: 40):   [ 2/40 ] - IDs 161-200
  * ==================
- * TOTAL: 84/200 questions complete (42%)
+ * TOTAL: 104/200 questions complete (52%)
  * 
  * BATCH PLAN (20 questions per batch):
  * Batch 1: ✓ Numerical 3-22   (20 questions) - COMPLETE
  * Batch 2: ✓ Numerical 23-42  (20 questions) - COMPLETE
  * Batch 3: ✓ Numerical 43-62  (20 questions) - COMPLETE
  * Batch 4: ✓ Numerical 63-80  (18 questions) - COMPLETE
- * Batch 5: ✗ Verbal 83-102    (20 questions)
+ * Batch 5: ✓ Verbal 83-102    (20 questions) - COMPLETE
  * Batch 6: ✗ Verbal 103-122   (20 questions)
  * Batch 7: ✗ Verbal 123-142   (20 questions)
  * Batch 8: ✗ Verbal 143-160   (18 questions)
@@ -687,6 +687,166 @@ const QUESTIONS = [
     options: ['Drawing', 'Writing', 'Stirring', 'Eating'],
     answer: 3,
     explanation: 'A fork is used for eating, just as a book is used for reading.'
+  },
+  {
+    id: 83,
+    type: 'Verbal',
+    question: 'Which word means the same as "brief"?',
+    options: ['Long', 'Short', 'Detailed', 'Complex'],
+    answer: 1,
+    explanation: 'Brief means short in duration or length.'
+  },
+  {
+    id: 84,
+    type: 'Verbal',
+    question: 'Complete the analogy: Pen is to Write as Scissors is to ...',
+    options: ['Paste', 'Draw', 'Cut', 'Fold'],
+    answer: 2,
+    explanation: 'Scissors are used to cut, just as a pen is used to write.'
+  },
+  {
+    id: 85,
+    type: 'Verbal',
+    question: 'Which word is most opposite in meaning to "expand"?',
+    options: ['Grow', 'Contract', 'Increase', 'Enlarge'],
+    answer: 1,
+    explanation: 'Contract is the antonym of expand.'
+  },
+  {
+    id: 86,
+    type: 'Verbal',
+    question: 'Complete the analogy: Teacher is to School as Doctor is to ...',
+    options: ['Medicine', 'Hospital', 'Patient', 'Nurse'],
+    answer: 1,
+    explanation: 'A doctor works in a hospital, just as a teacher works in a school.'
+  },
+  {
+    id: 87,
+    type: 'Verbal',
+    question: 'Which word means the same as "rapid"?',
+    options: ['Slow', 'Quick', 'Steady', 'Gradual'],
+    answer: 1,
+    explanation: 'Rapid means quick or fast.'
+  },
+  {
+    id: 88,
+    type: 'Verbal',
+    question: 'Complete the analogy: Hot is to Cold as Light is to ...',
+    options: ['Bright', 'Dark', 'Sun', 'Moon'],
+    answer: 1,
+    explanation: 'Dark is the opposite of light, just as cold is the opposite of hot.'
+  },
+  {
+    id: 89,
+    type: 'Verbal',
+    question: 'Which word is most opposite in meaning to "ancient"?',
+    options: ['Old', 'Modern', 'Historic', 'Past'],
+    answer: 1,
+    explanation: 'Modern is the antonym of ancient.'
+  },
+  {
+    id: 90,
+    type: 'Verbal',
+    question: 'Complete the analogy: Car is to Road as Boat is to ...',
+    options: ['Harbor', 'Water', 'Dock', 'Sail'],
+    answer: 1,
+    explanation: 'A boat travels on water, just as a car travels on a road.'
+  },
+  {
+    id: 91,
+    type: 'Verbal',
+    question: 'Which word means the same as "bizarre"?',
+    options: ['Normal', 'Strange', 'Common', 'Usual'],
+    answer: 1,
+    explanation: 'Bizarre means strange or unusual.'
+  },
+  {
+    id: 92,
+    type: 'Verbal',
+    question: 'Complete the analogy: Wing is to Bird as Fin is to ...',
+    options: ['Water', 'Fish', 'Ocean', 'Shark'],
+    answer: 1,
+    explanation: 'A fin is a body part of a fish, just as a wing is a body part of a bird.'
+  },
+  {
+    id: 93,
+    type: 'Verbal',
+    question: 'Which word is most opposite in meaning to "confident"?',
+    options: ['Sure', 'Doubtful', 'Certain', 'Bold'],
+    answer: 1,
+    explanation: 'Doubtful is the antonym of confident.'
+  },
+  {
+    id: 94,
+    type: 'Verbal',
+    question: 'Complete the analogy: Flour is to Bread as Grapes are to ...',
+    options: ['Fruit', 'Wine', 'Vineyard', 'Purple'],
+    answer: 1,
+    explanation: 'Grapes are made into wine, just as flour is made into bread.'
+  },
+  {
+    id: 95,
+    type: 'Verbal',
+    question: 'Which word means the same as "eager"?',
+    options: ['Reluctant', 'Enthusiastic', 'Bored', 'Tired'],
+    answer: 1,
+    explanation: 'Eager means enthusiastic or keen.'
+  },
+  {
+    id: 96,
+    type: 'Verbal',
+    question: 'Complete the analogy: Eyes are to Seeing as Ears are to ...',
+    options: ['Listening', 'Hearing', 'Speaking', 'Touching'],
+    answer: 1,
+    explanation: 'Ears are used for hearing, just as eyes are used for seeing.'
+  },
+  {
+    id: 97,
+    type: 'Verbal',
+    question: 'Which word is most opposite in meaning to "generous"?',
+    options: ['Giving', 'Stingy', 'Kind', 'Charitable'],
+    answer: 1,
+    explanation: 'Stingy is the antonym of generous.'
+  },
+  {
+    id: 98,
+    type: 'Verbal',
+    question: 'Complete the analogy: Wheel is to Car as Propeller is to ...',
+    options: ['Engine', 'Airplane', 'Sky', 'Pilot'],
+    answer: 1,
+    explanation: 'A propeller is a key part of an airplane, just as a wheel is a key part of a car.'
+  },
+  {
+    id: 99,
+    type: 'Verbal',
+    question: 'Which word means the same as "transparent"?',
+    options: ['Opaque', 'Clear', 'Solid', 'Dark'],
+    answer: 1,
+    explanation: 'Transparent means clear or see-through.'
+  },
+  {
+    id: 100,
+    type: 'Verbal',
+    question: 'Complete the analogy: Needle is to Sewing as Hammer is to ...',
+    options: ['Tool', 'Building', 'Pounding', 'Nail'],
+    answer: 2,
+    explanation: 'A hammer is used for pounding, just as a needle is used for sewing.'
+  },
+  {
+    id: 101,
+    type: 'Verbal',
+    question: 'Which word is most opposite in meaning to "humble"?',
+    options: ['Modest', 'Arrogant', 'Meek', 'Simple'],
+    answer: 1,
+    explanation: 'Arrogant is the antonym of humble.'
+  },
+  {
+    id: 102,
+    type: 'Verbal',
+    question: 'Complete the analogy: Chapter is to Book as Scene is to ...',
+    options: ['Movie', 'Play', 'Actor', 'Stage'],
+    answer: 1,
+    explanation: 'A scene is a part of a play, just as a chapter is a part of a book.'
   },
 
   // ========================================
