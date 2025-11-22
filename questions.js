@@ -6,10 +6,10 @@
  * PROGRESS TRACKER:
  * ==================
  * Numerical (Goal: 80):  [ 80/80 ] ✓ COMPLETE - IDs 1-80
- * Verbal (Goal: 80):     [ 42/80 ] - IDs 81-160  
+ * Verbal (Goal: 80):     [ 62/80 ] - IDs 81-160  
  * Abstract (Goal: 40):   [ 2/40 ] - IDs 161-200
  * ==================
- * TOTAL: 124/200 questions complete (62%)
+ * TOTAL: 144/200 questions complete (72%)
  * 
  * BATCH PLAN (20 questions per batch):
  * Batch 1: ✓ Numerical 3-22   (20 questions) - COMPLETE
@@ -18,7 +18,7 @@
  * Batch 4: ✓ Numerical 63-80  (18 questions) - COMPLETE
  * Batch 5: ✓ Verbal 83-102    (20 questions) - COMPLETE
  * Batch 6: ✓ Verbal 103-122   (20 questions) - COMPLETE
- * Batch 7: ✗ Verbal 123-142   (20 questions)
+ * Batch 7: ✓ Verbal 123-142   (20 questions) - COMPLETE
  * Batch 8: ✗ Verbal 143-160   (18 questions)
  * Batch 9: ✗ Abstract 163-182 (20 questions)
  * Batch 10: ✗ Abstract 183-200 (18 questions)
@@ -1007,6 +1007,166 @@ const QUESTIONS = [
     options: ['Glass', 'House', 'Door', 'Wall'],
     answer: 1,
     explanation: 'A window is part of a house, just as a lens is part of a camera.'
+  },
+  {
+    id: 123,
+    type: 'Verbal',
+    question: 'Which word means the same as "diligent"?',
+    options: ['Lazy', 'Hardworking', 'Careless', 'Idle'],
+    answer: 1,
+    explanation: 'Diligent means hardworking and careful.'
+  },
+  {
+    id: 124,
+    type: 'Verbal',
+    question: 'Complete the analogy: Clock is to Time as Thermometer is to ...',
+    options: ['Heat', 'Temperature', 'Cold', 'Weather'],
+    answer: 1,
+    explanation: 'A thermometer measures temperature, just as a clock measures time.'
+  },
+  {
+    id: 125,
+    type: 'Verbal',
+    question: 'Which word is most opposite in meaning to "shallow"?',
+    options: ['Deep', 'Surface', 'Thin', 'Light'],
+    answer: 0,
+    explanation: 'Deep is the antonym of shallow.'
+  },
+  {
+    id: 126,
+    type: 'Verbal',
+    question: 'Complete the analogy: Chef is to Kitchen as Pilot is to ...',
+    options: ['Plane', 'Cockpit', 'Sky', 'Airport'],
+    answer: 1,
+    explanation: 'A pilot works in a cockpit, just as a chef works in a kitchen.'
+  },
+  {
+    id: 127,
+    type: 'Verbal',
+    question: 'Which word means the same as "cordial"?',
+    options: ['Rude', 'Friendly', 'Cold', 'Hostile'],
+    answer: 1,
+    explanation: 'Cordial means friendly and warm.'
+  },
+  {
+    id: 128,
+    type: 'Verbal',
+    question: 'Complete the analogy: Roots are to Tree as Foundation is to ...',
+    options: ['Building', 'Roof', 'Floor', 'Wall'],
+    answer: 0,
+    explanation: 'A foundation supports a building, just as roots support a tree.'
+  },
+  {
+    id: 129,
+    type: 'Verbal',
+    question: 'Which word is most opposite in meaning to "fragile"?',
+    options: ['Delicate', 'Sturdy', 'Weak', 'Brittle'],
+    answer: 1,
+    explanation: 'Sturdy is the antonym of fragile.'
+  },
+  {
+    id: 130,
+    type: 'Verbal',
+    question: 'Complete the analogy: Author is to Story as Architect is to ...',
+    options: ['Building', 'Blueprint', 'Construction', 'Design'],
+    answer: 1,
+    explanation: 'An architect creates a blueprint, just as an author creates a story.'
+  },
+  {
+    id: 131,
+    type: 'Verbal',
+    question: 'Which word means the same as "concise"?',
+    options: ['Lengthy', 'Brief', 'Wordy', 'Elaborate'],
+    answer: 1,
+    explanation: 'Concise means brief and to the point.'
+  },
+  {
+    id: 132,
+    type: 'Verbal',
+    question: 'Complete the analogy: Ship is to Captain as Orchestra is to ...',
+    options: ['Music', 'Conductor', 'Instrument', 'Violin'],
+    answer: 1,
+    explanation: 'A conductor leads an orchestra, just as a captain leads a ship.'
+  },
+  {
+    id: 133,
+    type: 'Verbal',
+    question: 'Which word is most opposite in meaning to "domestic"?',
+    options: ['Home', 'Foreign', 'Local', 'Native'],
+    answer: 1,
+    explanation: 'Foreign is the antonym of domestic.'
+  },
+  {
+    id: 134,
+    type: 'Verbal',
+    question: 'Complete the analogy: Leaves are to Photosynthesis as Lungs are to ...',
+    options: ['Air', 'Breathing', 'Oxygen', 'Chest'],
+    answer: 1,
+    explanation: 'Lungs perform breathing, just as leaves perform photosynthesis.'
+  },
+  {
+    id: 135,
+    type: 'Verbal',
+    question: 'Which word means the same as "obsolete"?',
+    options: ['Modern', 'Outdated', 'New', 'Current'],
+    answer: 1,
+    explanation: 'Obsolete means outdated or no longer in use.'
+  },
+  {
+    id: 136,
+    type: 'Verbal',
+    question: 'Complete the analogy: Caterpillar is to Butterfly as Tadpole is to ...',
+    options: ['Pond', 'Frog', 'Fish', 'Water'],
+    answer: 1,
+    explanation: 'A tadpole transforms into a frog, just as a caterpillar becomes a butterfly.'
+  },
+  {
+    id: 137,
+    type: 'Verbal',
+    question: 'Which word is most opposite in meaning to "artificial"?',
+    options: ['Fake', 'Natural', 'Synthetic', 'Man-made'],
+    answer: 1,
+    explanation: 'Natural is the antonym of artificial.'
+  },
+  {
+    id: 138,
+    type: 'Verbal',
+    question: 'Complete the analogy: Lawyer is to Court as Surgeon is to ...',
+    options: ['Hospital', 'Operating Room', 'Medicine', 'Patient'],
+    answer: 1,
+    explanation: 'A surgeon works in an operating room, just as a lawyer works in a court.'
+  },
+  {
+    id: 139,
+    type: 'Verbal',
+    question: 'Which word means the same as "frugal"?',
+    options: ['Wasteful', 'Thrifty', 'Extravagant', 'Lavish'],
+    answer: 1,
+    explanation: 'Frugal means thrifty or economical.'
+  },
+  {
+    id: 140,
+    type: 'Verbal',
+    question: 'Complete the analogy: Sail is to Boat as Wing is to ...',
+    options: ['Plane', 'Sky', 'Feather', 'Flight'],
+    answer: 0,
+    explanation: 'A wing is a key part of a plane, just as a sail is a key part of a boat.'
+  },
+  {
+    id: 141,
+    type: 'Verbal',
+    question: 'Which word is most opposite in meaning to "voluntary"?',
+    options: ['Willing', 'Forced', 'Optional', 'Free'],
+    answer: 1,
+    explanation: 'Forced is the antonym of voluntary.'
+  },
+  {
+    id: 142,
+    type: 'Verbal',
+    question: 'Complete the analogy: Fire is to Smoke as Lightning is to ...',
+    options: ['Rain', 'Thunder', 'Storm', 'Cloud'],
+    answer: 1,
+    explanation: 'Lightning produces thunder, just as fire produces smoke.'
   },
 
   // ========================================
