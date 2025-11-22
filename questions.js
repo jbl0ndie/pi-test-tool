@@ -5,16 +5,16 @@
  * 
  * PROGRESS TRACKER:
  * ==================
- * Numerical (Goal: 80):  [ 42/80 ] - IDs 1-80
+ * Numerical (Goal: 80):  [ 62/80 ] - IDs 1-80
  * Verbal (Goal: 80):     [ 2/80 ] - IDs 81-160  
  * Abstract (Goal: 40):   [ 2/40 ] - IDs 161-200
  * ==================
- * TOTAL: 46/200 questions complete (23%)
+ * TOTAL: 66/200 questions complete (33%)
  * 
  * BATCH PLAN (20 questions per batch):
  * Batch 1: ✓ Numerical 3-22   (20 questions) - COMPLETE
  * Batch 2: ✓ Numerical 23-42  (20 questions) - COMPLETE
- * Batch 3: ✗ Numerical 43-62  (20 questions)
+ * Batch 3: ✓ Numerical 43-62  (20 questions) - COMPLETE
  * Batch 4: ✗ Numerical 63-80  (18 questions)
  * Batch 5: ✗ Verbal 83-102    (20 questions)
  * Batch 6: ✗ Verbal 103-122   (20 questions)
@@ -363,6 +363,166 @@ const QUESTIONS = [
     options: ['4', '6', '8', '10'],
     answer: 2,
     explanation: 'Each number is halved. 16 ÷ 2 = 8.'
+  },
+  {
+    id: 43,
+    type: 'Numerical',
+    question: 'What is the next number? 2, 3, 5, 8, 13, ?',
+    options: ['18', '19', '20', '21'],
+    answer: 3,
+    explanation: 'Add previous two numbers: 8 + 13 = 21.'
+  },
+  {
+    id: 44,
+    type: 'Numerical',
+    question: 'If a pizza is cut into 8 slices and you eat 3, what percentage did you eat?',
+    options: ['30%', '35%', '37.5%', '40%'],
+    answer: 2,
+    explanation: '3/8 = 0.375 = 37.5%.'
+  },
+  {
+    id: 45,
+    type: 'Numerical',
+    question: 'What is the next number? 11, 22, 33, 44, ?',
+    options: ['50', '55', '60', '65'],
+    answer: 1,
+    explanation: 'Add 11 each time. 44 + 11 = 55.'
+  },
+  {
+    id: 46,
+    type: 'Numerical',
+    question: 'If 7x + 4 = 39, what is x?',
+    options: ['3', '4', '5', '6'],
+    answer: 2,
+    explanation: '7x = 39 - 4 = 35, so x = 35 ÷ 7 = 5.'
+  },
+  {
+    id: 47,
+    type: 'Numerical',
+    question: 'A class has 24 students. If 1/3 are absent, how many are present?',
+    options: ['12', '14', '16', '18'],
+    answer: 2,
+    explanation: '1/3 of 24 = 8 absent. 24 - 8 = 16 present.'
+  },
+  {
+    id: 48,
+    type: 'Numerical',
+    question: 'What is the next number? 7, 11, 15, 19, ?',
+    options: ['21', '23', '25', '27'],
+    answer: 1,
+    explanation: 'Add 4 each time. 19 + 4 = 23.'
+  },
+  {
+    id: 49,
+    type: 'Numerical',
+    question: 'If an item costs $45 after a 10% discount, what was the original price?',
+    options: ['$48', '$49', '$50', '$52'],
+    answer: 2,
+    explanation: 'If 90% = $45, then 100% = $45 ÷ 0.9 = $50.'
+  },
+  {
+    id: 50,
+    type: 'Numerical',
+    question: 'What is the next number? 1, 8, 27, 64, ?',
+    options: ['100', '125', '144', '216'],
+    answer: 1,
+    explanation: 'Perfect cubes: 1³, 2³, 3³, 4³, 5³ = 125.'
+  },
+  {
+    id: 51,
+    type: 'Numerical',
+    question: 'A tank holds 500 liters and is 60% full. How many liters are in it?',
+    options: ['250', '280', '300', '320'],
+    answer: 2,
+    explanation: '0.60 × 500 = 300 liters.'
+  },
+  {
+    id: 52,
+    type: 'Numerical',
+    question: 'What is the next number? 100, 91, 82, 73, ?',
+    options: ['60', '62', '64', '66'],
+    answer: 2,
+    explanation: 'Subtract 9 each time. 73 - 9 = 64.'
+  },
+  {
+    id: 53,
+    type: 'Numerical',
+    question: 'If 5 books cost $75, how much do 8 books cost?',
+    options: ['$100', '$110', '$120', '$130'],
+    answer: 2,
+    explanation: 'One book costs $75 ÷ 5 = $15. Eight books cost 8 × $15 = $120.'
+  },
+  {
+    id: 54,
+    type: 'Numerical',
+    question: 'What is the next number? 3, 6, 12, 24, 48, ?',
+    options: ['72', '84', '96', '108'],
+    answer: 2,
+    explanation: 'Each number doubles. 48 × 2 = 96.'
+  },
+  {
+    id: 55,
+    type: 'Numerical',
+    question: 'A shirt costs $30. With a 30% discount, what do you pay?',
+    options: ['$18', '$21', '$24', '$27'],
+    answer: 1,
+    explanation: '30% of $30 = $9 discount. $30 - $9 = $21.'
+  },
+  {
+    id: 56,
+    type: 'Numerical',
+    question: 'What is the next number? 5, 15, 45, 135, ?',
+    options: ['270', '315', '405', '450'],
+    answer: 2,
+    explanation: 'Each number is multiplied by 3. 135 × 3 = 405.'
+  },
+  {
+    id: 57,
+    type: 'Numerical',
+    question: 'If a triangle has sides 3, 4, and 5, what is its perimeter?',
+    options: ['10', '11', '12', '13'],
+    answer: 2,
+    explanation: 'Perimeter = 3 + 4 + 5 = 12.'
+  },
+  {
+    id: 58,
+    type: 'Numerical',
+    question: 'What is 12% of 300?',
+    options: ['30', '33', '36', '39'],
+    answer: 2,
+    explanation: '0.12 × 300 = 36.'
+  },
+  {
+    id: 59,
+    type: 'Numerical',
+    question: 'What is the next number? 1, 4, 10, 19, 31, ?',
+    options: ['43', '46', '49', '52'],
+    answer: 1,
+    explanation: 'Differences increase by 3: +3, +6, +9, +12, +15. So 31 + 15 = 46.'
+  },
+  {
+    id: 60,
+    type: 'Numerical',
+    question: 'A bicycle costs $200 and increases in price by 15%. What is the new price?',
+    options: ['$220', '$225', '$230', '$235'],
+    answer: 2,
+    explanation: '15% of $200 = $30. New price = $200 + $30 = $230.'
+  },
+  {
+    id: 61,
+    type: 'Numerical',
+    question: 'What is the next number? 9, 18, 36, 72, ?',
+    options: ['108', '120', '144', '156'],
+    answer: 2,
+    explanation: 'Each number doubles. 72 × 2 = 144.'
+  },
+  {
+    id: 62,
+    type: 'Numerical',
+    question: 'If 8x - 12 = 36, what is x?',
+    options: ['4', '5', '6', '7'],
+    answer: 2,
+    explanation: '8x = 36 + 12 = 48, so x = 48 ÷ 8 = 6.'
   },
 
   // ========================================
