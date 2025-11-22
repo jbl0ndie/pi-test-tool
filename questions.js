@@ -6,10 +6,10 @@
  * PROGRESS TRACKER:
  * ==================
  * Numerical (Goal: 80):  [ 80/80 ] ✓ COMPLETE - IDs 1-80
- * Verbal (Goal: 80):     [ 22/80 ] - IDs 81-160  
+ * Verbal (Goal: 80):     [ 42/80 ] - IDs 81-160  
  * Abstract (Goal: 40):   [ 2/40 ] - IDs 161-200
  * ==================
- * TOTAL: 104/200 questions complete (52%)
+ * TOTAL: 124/200 questions complete (62%)
  * 
  * BATCH PLAN (20 questions per batch):
  * Batch 1: ✓ Numerical 3-22   (20 questions) - COMPLETE
@@ -17,7 +17,7 @@
  * Batch 3: ✓ Numerical 43-62  (20 questions) - COMPLETE
  * Batch 4: ✓ Numerical 63-80  (18 questions) - COMPLETE
  * Batch 5: ✓ Verbal 83-102    (20 questions) - COMPLETE
- * Batch 6: ✗ Verbal 103-122   (20 questions)
+ * Batch 6: ✓ Verbal 103-122   (20 questions) - COMPLETE
  * Batch 7: ✗ Verbal 123-142   (20 questions)
  * Batch 8: ✗ Verbal 143-160   (18 questions)
  * Batch 9: ✗ Abstract 163-182 (20 questions)
@@ -847,6 +847,166 @@ const QUESTIONS = [
     options: ['Movie', 'Play', 'Actor', 'Stage'],
     answer: 1,
     explanation: 'A scene is a part of a play, just as a chapter is a part of a book.'
+  },
+  {
+    id: 103,
+    type: 'Verbal',
+    question: 'Which word means the same as "difficult"?',
+    options: ['Easy', 'Hard', 'Simple', 'Clear'],
+    answer: 1,
+    explanation: 'Difficult means hard or challenging.'
+  },
+  {
+    id: 104,
+    type: 'Verbal',
+    question: 'Complete the analogy: Painter is to Canvas as Sculptor is to ...',
+    options: ['Stone', 'Museum', 'Art', 'Tool'],
+    answer: 0,
+    explanation: 'A sculptor works with stone, just as a painter works with canvas.'
+  },
+  {
+    id: 105,
+    type: 'Verbal',
+    question: 'Which word is most opposite in meaning to "lenient"?',
+    options: ['Strict', 'Gentle', 'Easy', 'Kind'],
+    answer: 0,
+    explanation: 'Strict is the antonym of lenient.'
+  },
+  {
+    id: 106,
+    type: 'Verbal',
+    question: 'Complete the analogy: Engine is to Car as Heart is to ...',
+    options: ['Blood', 'Body', 'Pulse', 'Beat'],
+    answer: 1,
+    explanation: 'The heart is central to the body, just as an engine is central to a car.'
+  },
+  {
+    id: 107,
+    type: 'Verbal',
+    question: 'Which word means the same as "prohibit"?',
+    options: ['Allow', 'Forbid', 'Permit', 'Enable'],
+    answer: 1,
+    explanation: 'Prohibit means to forbid or ban.'
+  },
+  {
+    id: 108,
+    type: 'Verbal',
+    question: 'Complete the analogy: Sun is to Day as Moon is to ...',
+    options: ['Star', 'Night', 'Sky', 'Dark'],
+    answer: 1,
+    explanation: 'The moon is associated with night, just as the sun is with day.'
+  },
+  {
+    id: 109,
+    type: 'Verbal',
+    question: 'Which word is most opposite in meaning to "permanent"?',
+    options: ['Lasting', 'Temporary', 'Forever', 'Eternal'],
+    answer: 1,
+    explanation: 'Temporary is the antonym of permanent.'
+  },
+  {
+    id: 110,
+    type: 'Verbal',
+    question: 'Complete the analogy: Seed is to Plant as Egg is to ...',
+    options: ['Nest', 'Bird', 'Shell', 'Feather'],
+    answer: 1,
+    explanation: 'An egg develops into a bird, just as a seed grows into a plant.'
+  },
+  {
+    id: 111,
+    type: 'Verbal',
+    question: 'Which word means the same as "adjacent"?',
+    options: ['Distant', 'Next to', 'Far', 'Remote'],
+    answer: 1,
+    explanation: 'Adjacent means next to or neighboring.'
+  },
+  {
+    id: 112,
+    type: 'Verbal',
+    question: 'Complete the analogy: Composer is to Symphony as Author is to ...',
+    options: ['Book', 'Novel', 'Library', 'Reader'],
+    answer: 1,
+    explanation: 'An author creates a novel, just as a composer creates a symphony.'
+  },
+  {
+    id: 113,
+    type: 'Verbal',
+    question: 'Which word is most opposite in meaning to "optimistic"?',
+    options: ['Hopeful', 'Pessimistic', 'Positive', 'Cheerful'],
+    answer: 1,
+    explanation: 'Pessimistic is the antonym of optimistic.'
+  },
+  {
+    id: 114,
+    type: 'Verbal',
+    question: 'Complete the analogy: Keyboard is to Computer as Steering Wheel is to ...',
+    options: ['Car', 'Driver', 'Road', 'Tire'],
+    answer: 0,
+    explanation: 'A steering wheel controls a car, just as a keyboard controls a computer.'
+  },
+  {
+    id: 115,
+    type: 'Verbal',
+    question: 'Which word means the same as "meticulous"?',
+    options: ['Careless', 'Careful', 'Sloppy', 'Hasty'],
+    answer: 1,
+    explanation: 'Meticulous means very careful and precise.'
+  },
+  {
+    id: 116,
+    type: 'Verbal',
+    question: 'Complete the analogy: Fuel is to Car as Food is to ...',
+    options: ['Plate', 'Human', 'Restaurant', 'Kitchen'],
+    answer: 1,
+    explanation: 'Food provides energy for humans, just as fuel powers a car.'
+  },
+  {
+    id: 117,
+    type: 'Verbal',
+    question: 'Which word is most opposite in meaning to "trivial"?',
+    options: ['Minor', 'Important', 'Small', 'Insignificant'],
+    answer: 1,
+    explanation: 'Important is the antonym of trivial.'
+  },
+  {
+    id: 118,
+    type: 'Verbal',
+    question: 'Complete the analogy: Ink is to Pen as Paint is to ...',
+    options: ['Canvas', 'Brush', 'Color', 'Artist'],
+    answer: 1,
+    explanation: 'Paint is applied with a brush, just as ink flows from a pen.'
+  },
+  {
+    id: 119,
+    type: 'Verbal',
+    question: 'Which word means the same as "abundant"?',
+    options: ['Scarce', 'Plentiful', 'Rare', 'Limited'],
+    answer: 1,
+    explanation: 'Abundant means plentiful or in large supply.'
+  },
+  {
+    id: 120,
+    type: 'Verbal',
+    question: 'Complete the analogy: Branch is to Tree as Arm is to ...',
+    options: ['Hand', 'Body', 'Shoulder', 'Finger'],
+    answer: 1,
+    explanation: 'An arm extends from the body, just as a branch extends from a tree.'
+  },
+  {
+    id: 121,
+    type: 'Verbal',
+    question: 'Which word is most opposite in meaning to "precise"?',
+    options: ['Exact', 'Vague', 'Accurate', 'Specific'],
+    answer: 1,
+    explanation: 'Vague is the antonym of precise.'
+  },
+  {
+    id: 122,
+    type: 'Verbal',
+    question: 'Complete the analogy: Lens is to Camera as Window is to ...',
+    options: ['Glass', 'House', 'Door', 'Wall'],
+    answer: 1,
+    explanation: 'A window is part of a house, just as a lens is part of a camera.'
   },
 
   // ========================================
